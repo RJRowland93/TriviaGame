@@ -1,0 +1,21 @@
+/*Stick Footer*/
+/*=====================================*/
+html, body {
+    height: 100%;
+    background-color: black;
+    /*background-image: url("../images/asbump.png");*/
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -30px;
+}
+.footer, .push {
+    height: 30px; 
+}
+/*=====================================*/
+/*=====================================*/
+.hide {
+	display: none;
+}

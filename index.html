@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Trivia Game</title>
+	<title>South Park Trivia Game</title>
 	<!-- Bootstrap CDN -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- Bootstrap Theme -->
@@ -15,6 +15,39 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="wrapper">
+	<div class="container text-center">
+		<!-- header -->
+		<div class="page-header text-center">
+		  <h1>South Park Trivia Game</h1>
+		</div>
+		<!-- timer -->
+		<div class="row">
+			<h2>Time Remaining: <span id="timer">15</span> seconds.</h2>
+		</div>
+		<!-- question -->
+		<div class="row" id="game">
+			<h2 id="message"></h2>
+			<h2 id="questions"></h2>
+		<!-- answer/display -->
+			<div id="choices">
+				<!-- <ul ></ul> -->
+			</div>
+			<div>
+				<h2 id="correct"></h2>
+				<h2 id="wrong"></h2>
+			</div>
+		</div>
+		<!-- start button -->
+		<button type="button" class="btn btn-success" id="play">Start!</button>
+		<button type="button" class="btn btn-success hide" id="reset">Again!</button>
+		<div class="push"></div>
+	</div>
+</div>
+<!-- footer -->
+<div class="footer text-center">
+	<p>Randal Rowland 2016</p>	
+</div>
 
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
